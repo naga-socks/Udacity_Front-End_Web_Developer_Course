@@ -1,0 +1,96 @@
+/*
+Jhonatan Nagasako
+02-FEB-2018
+Lesson 8: Animal Trading Cards Overview
+Local file name: styles.css
+Updates/notes: bottom of page
+*/
+
+.card {
+  border: 5px solid gold;
+  width: 300px;
+  height: 600px; /*adjust */
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: #e0ffff;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+}
+
+.header { /*CORGI NAME*/
+  position: relative;
+  top: -20px; /*adjust */
+  text-decoration: underline;
+  font-family: "Times New Roman";
+  font-size: 100%;
+  font-weight: bold;
+  padding-bottom: 1px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.imageCorgi { /*corgi picture*/
+  width: 300px;
+  top: -30px; /*adjust */
+  border: 1px solid black;
+  border-radius: 25px 25px 25px 25px;
+  text-align: center;
+  /*   margin-left: auto;
+  margin-right: auto; */
+
+}
+
+.boxCorgi { /*container for corgi picture*/
+  position: relative;
+  top: -30px; /*adjust */
+  width: 300px;
+  top: -30px; /*adjust */
+  padding-bottom: 1px;
+
+}
+
+.boxInfo { /*container for info text*/
+  /*spans info under text*/
+  border-radius: 25px 25px 25px 25px;
+  width: 300px;
+  color: black;
+  padding-bottom: 1px;
+  position: relative;
+  top: -35px; /*adjust */
+}
+.boxInteresting { /*interesting fact section*/
+  width: 300px;
+  font-size: 12pt;
+  padding-bottom: 10px;
+  margin: auto;
+  font-style: italic;
+  position: relative;
+  top: -10px; /*adjust */
+}
+.boxStats { /*stats section*/
+  width: 300px;
+  font-size: 12pt;
+  padding-bottom: 10px;
+  margin: auto;
+  line-height: 4px; /*adusjust spacing between lines*/
+  position: relative;
+  top: -20px; /*adjust */
+}
+.boxBrief { /*brief on corgi*/
+  width: 300px;
+  font-size: 12pt;
+  padding-bottom: 10px;
+  position: relative;
+  top: -30px; /*adjust */
+}
+/*
+Next update:
+- add element
+- add power level
+- make card look like a yu-gi-oh or pokemon card
+
+NOTES
+SPAN: https://www.codecademy.com/en/forum_questions/502ad0ea558dfe0002026d69
+Padding vs Margin: https://www.google.com/imgres?imgurl=https://i.stack.imgur.com/PeSIJ.gif&imgrefurl=https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css&h=289&w=536&tbnid=8n6rqzXAAZpsjM:&tbnh=113&tbnw=211&usg=__t88ibIOpbFPLI1crupmDXpoTK10%3D&vet=10ahUKEwiEpqWdsYjZAhVLba0KHXxjDsoQ9QEILTAA..i&docid=ZFDjzPziamAQHM&sa=X&ved=0ahUKEwiEpqWdsYjZAhVLba0KHXxjDsoQ9QEILTAA */

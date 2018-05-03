@@ -1,0 +1,10 @@
+/*
+ * Programming Quiz: Cry (5-5)
+ */
+
+// your code goes here
+var cry = function sad(){ // need to return string, then call function inside console.log
+    return "boohoo!";
+};
+
+console.log(cry());

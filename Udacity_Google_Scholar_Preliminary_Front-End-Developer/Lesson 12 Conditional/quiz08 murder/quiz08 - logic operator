@@ -1,0 +1,35 @@
+/*
+ * Programming Quiz: Murder Mystery (3-4)
+ */
+
+// change the value of `room` and `suspect` to test your code
+
+//• four rooms: the ballroom, gallery, billiards room, and dining room,
+var room = "dining room"; //change
+// four suspects: Mr. Parkes, Ms. Van Cleve, Mrs. Sparr, and Mr. Kalehoff.
+var suspect = "Mr. Parkes"; //change
+
+//• four weapons: poison, a trophy, a pool stick, and a knife,
+var weapon = "";
+var solved = false;
+
+
+if (room === "dining room" && suspect === "Mr. Parkes") {
+    weapon = "knife";
+    solved = true;
+} else if (room === "gallery" && suspect === "Ms. Van Cleve") {
+    weapon = "trophy";
+        solved = true;
+} else if (room === "billiards room" && suspect === "Mrs. Sparr") {
+    weapon = "pool stick";
+        solved = true;
+} else if (room === "ballroom" && suspect === "Mr. Kalehoff") {
+    weapon = "poison";
+        solved = true;
+} else {
+    solved = false;
+}
+
+if (solved === true) {
+	console.log(suspect + " did it in the " + room + " with the " + weapon + "!");
+}

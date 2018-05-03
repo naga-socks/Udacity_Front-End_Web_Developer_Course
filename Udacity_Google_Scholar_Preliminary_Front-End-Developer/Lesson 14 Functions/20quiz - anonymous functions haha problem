@@ -1,0 +1,13 @@
+/*
+ * Programming Quiz: Laugh (5-4)
+ */
+
+var laugh = function(num){
+    var haFunc = ""; // place all the variables inside the function = anonumous function
+  for(var i=0; i<num; i++){
+    haFunc += "ha";
+  }
+  return haFunc + "!";
+};
+
+console.log(laugh(3));

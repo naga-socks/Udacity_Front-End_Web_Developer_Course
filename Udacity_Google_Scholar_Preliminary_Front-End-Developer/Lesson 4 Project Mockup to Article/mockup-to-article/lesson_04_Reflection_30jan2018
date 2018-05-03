@@ -1,0 +1,86 @@
+<!--
+Jhonatan Nagasako
+30-JAN-2018
+Lesson 4 - Project 4 - Reflection
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson 4: Project - Reflection</title>
+  <!-- scrips need to add button fuction, affected the header properties-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <!--
+  Question Prompt:
+  You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+-->
+<div>
+  <h1>Udacity: Lesson 4 - Project - Reflection</h1>
+  <h4>By <i>Jhonatan Nagasako</i><h4>
+    <time>30-JAN-2018</time>
+  </div>
+  <hr>
+  <!-- Help on button: https://www.w3schools.com/bootstrap/bootstrap_collapse.asp -->
+  <div class="container">
+    <h2>Project - Reflection</h2>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Click Here for Reflection Questions</button>
+    <div id="demo" class="collapse">
+      <div><p><font color="blue">
+        <u>Question Prompt:</u><br>
+        You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+        <ul>
+          <li>What new skills have you learned?</li>
+          <li>What has been easy?</li>
+          <li>What has been difficult?</li>
+          <li>How have you used the problem solving strategies from the first project to overcome challenges so far?</li>
+        </ul>
+      </font></p></div></br>
+    </div>
+  </div>
+  <hr>
+
+  <div>
+    <p><ul><li><b>What new skills have you learned?</b></li></ul>
+    <!-- Knuckes GIF credit: https://media1.tenor.com/images/96d8a6e5daebe9d1ac5ea47f39e74fa6/tenor.gif?itemid=10737833 -->
+      <p style="margin-left: 100px">&ndash; "I have found the way", just like little Knuckles here. I have learned how to find information to build simple sites. I also learned how to use data repositories, like GitHub, CodePen, etc. I also learned how great it is having a helpful comunity (e.g., Slack - thanks everyone for the help and support)!</p>
+      <img src="https://media1.tenor.com/images/96d8a6e5daebe9d1ac5ea47f39e74fa6/tenor.gif?itemid=10737833" alt="Knuckles meme sensation">
+    </p></div>
+    <hr>
+
+    <div>
+      <p><ul><li><b>What has been easy?</b></li></ul>
+        <p style="margin-left: 100px">&ndash; I think everying was challenging... I don't program as often as I used to (e.g., microcontroller systems). But my previous programing knowledge has been very helpful! Also, keeping up my spirit by listening to motivation songs, like <i>Hamilton's</i>, "Non-Stop" and getting help from the Slack community has helped me persevere!</p>
+
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xjc5bLdtB64" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+      <hr>
+
+      <div>
+        <p><ul><li><b>What has been difficult?</b></li></ul>
+          <p style="margin-left: 100px">&ndash; Honestly, using Slack has been painful and I got these errors saying I need to by the "Pro" version to see past messages... But trying my best to learn as fast as I can! </p>
+        </div>
+        <hr>
+
+        <div>
+          <p><ul><li><b>How have you used the problem solving strategies from the first project to overcome challenges so far?</b></li></ul>
+            <p style="margin-left: 100px">&ndash; I try my best to find the knowledge from the web. Taking notes and giving credit whenever possible. But if I am really stuck, I look for help in the Slack community, which has been awesome!</p>
+          </div>
+          <hr>
+
+          <div><p>
+            <i>&ndash; Thank you Udacity for allowing me to learn code with you and the other Google Scholars! - Jhonatan Nagasako</i>
+          </p></div>
+        </body>
+        </html>
