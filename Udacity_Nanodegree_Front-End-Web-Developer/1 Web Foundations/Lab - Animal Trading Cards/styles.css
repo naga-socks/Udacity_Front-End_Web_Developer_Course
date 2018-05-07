@@ -1,0 +1,30 @@
+/*
+Jhonatan Nagasako
+06-MAY-2018
+
+Lab - Animal Trading Cards
+-Just motified the exiting sheet because I did this before
+*/
+
+#container{ /*also acts as a class in the id="card" in the HMLT code*/
+  border: solid;
+  padding: 10px;
+
+}
+
+#animal-info{
+font-style: italic;
+}
+
+#card{
+ border-style: solid;
+}
+
+
+#facts{
+  list-style-type: none;
+}
+
+#list-of-facts{
+     font-weight: bold;
+}
