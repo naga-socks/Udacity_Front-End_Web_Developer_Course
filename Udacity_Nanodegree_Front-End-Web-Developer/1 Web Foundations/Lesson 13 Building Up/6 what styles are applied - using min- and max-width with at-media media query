@@ -1,0 +1,37 @@
+<!-- Lesson 13: building up
+Jhonatan Nagasako
+05-MAY-2018
+6. What styles are applied?
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>min AND max-width Media Queries</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      h1 {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        font-size: 6em;
+        font-family: Roboto;
+        transition: all 0.5s;
+      }
+
+      /*creating different color backgrounds depending on the max- and min-width of screen, using @media*/
+	  body{background-color: green;}
+
+      @media screen and (max-width: 400px) {body{background-color: red;}}
+
+      @media screen and (min-width: 600px){body{background-color: blue;}}
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Media Queries</h1>
+      <p>Watch the background colors change!</p>
+    </div>
+  </body>
+</html>
